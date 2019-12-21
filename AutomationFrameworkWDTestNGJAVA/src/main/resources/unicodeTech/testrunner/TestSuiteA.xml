@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="dasdas">
+<test name="ValidateUser">
+<classes>
+<class name="unicodeTech.TestSuiteA.ValidateUser"/>
+</classes>
+</test>
+
+
+<test name="ExtractManufacturer">
+<classes>
+<class name="unicodeTech.TestSuiteA.ExtractManufacturer"/>
+</classes>
+</test>`
+
+</suite>
