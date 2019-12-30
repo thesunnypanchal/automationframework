@@ -35,7 +35,7 @@ public class ValidateUser extends ChildTestSuiteA {
 			if(logOFflink.isDisplayed()) {
 				
 				System.out.println("User session has started");
-				MyMethods.getScreenShot("WelcomePageAfterLogin", driver);
+				//MyMethods.getScreenShot("WelcomePageAfterLogin", driver);
 				MyMethods.signOut();
 			}
 			
@@ -47,7 +47,7 @@ public class ValidateUser extends ChildTestSuiteA {
 	
 	@DataProvider
 	public Object[][] getTestDataFromXLS() {
-		
+
 		return MyMethods.getTestData(tsa, "ValidateUser");
 	}
 }

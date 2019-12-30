@@ -66,35 +66,35 @@ public class MyMethods extends BaseInit {
 		
 		int rows = data.totalRow(sheetName);
 		int cols = data.totalColumn(sheetName);
-			
+
 		Object[][] myData = new Object[rows-1][cols];
 		for(int row = 1;row<rows;row++) {
-			for(int col = 1;col<cols;col++) {
+			for(int col = 0;col<cols;col++) {
 				myData[rows-1][col] = data.getData(sheetName, row, col);
 			}
 		}
 		return myData;
 	}
 	
-public static String getScreenShot(String imageName, WebDriver driver) {
-		
-		TakesScreenshot ts = (TakesScreenshot)driver;
-		
-		File scrFile = ts.getScreenshotAs(OutputType.FILE);
-		
-		String path = System.getProperty("user.dir")+"\\src\\main\\resources\\unicodeTech\\screenshots\\"+imageName+System.currentTimeMillis()+".png";
-		
-		//System.out.println(path);
-		File destination =new File(path);
-		
-	    try {
-	    	
-	    	FileHandler.copy(scrFile,destination);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();	
-		}	   
-	    
-	    return path;
-	}
+//public static String getScreenShot(String imageName, WebDriver driver) {
+//		
+//		TakesScreenshot ts = (TakesScreenshot)driver;
+//		
+//		File scrFile = ts.getScreenshotAs(OutputType.FILE);
+//		
+//		String path = System.getProperty("user.dir")+"\\src\\main\\resources\\unicodeTech\\screenshots\\"+imageName+System.currentTimeMillis()+".png";
+//		
+//		//System.out.println(path);
+//		File destination =new File(path);
+//		
+//	    try {
+//	    	
+//	    	FileHandler.copy(scrFile,destination);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();	
+//		}	   
+//	    
+//	    return path;
+//	}
 }

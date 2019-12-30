@@ -32,7 +32,7 @@ public class ExtractManufacturer extends ChildTestSuiteA {
 		
 		manuValues.get(count).click();
 		Thread.sleep(2000);
-		MyMethods.getScreenShot("Manufacturer",driver);
+		//MyMethods.getScreenShot("Manufacturer",driver);
 		
 		driver.navigate().back();
 		menufacturers = isElementPresent("dd_manufacturers_name");

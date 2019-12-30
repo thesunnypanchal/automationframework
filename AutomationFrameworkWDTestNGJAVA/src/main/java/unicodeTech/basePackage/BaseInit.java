@@ -65,10 +65,10 @@ public class BaseInit {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		
-		suite = new ExcelFileReader(System.getProperty("user.die")+"//src//mail//resources//unicodeTech//tesInformation//TestSuite.xlsx");
-		tsa = new ExcelFileReader(System.getProperty("user.die")+"//src//mail//resources//unicodeTech//tesInformation//TestSuiteA.xlsx");
-		tsb = new ExcelFileReader(System.getProperty("user.die")+"//src//mail//resources//unicodeTech//tesInformation//TestSuitB.xlsx");
-		tsc = new ExcelFileReader(System.getProperty("user.die")+"//src//mail//resources//unicodeTech//tesInformation//TestSuitC.xlsx");
+		suite = new ExcelFileReader(System.getProperty("user.die")+"//src//main//resources//unicodeTech//tesInformation//TestSuite.xlsx");
+		tsa = new ExcelFileReader(System.getProperty("user.die")+"//src//main//resources//unicodeTech//tesInformation//TestSuiteA.xlsx");
+		tsb = new ExcelFileReader(System.getProperty("user.die")+"//src//main//resources//unicodeTech//tesInformation//TestSuitB.xlsx");
+		tsc = new ExcelFileReader(System.getProperty("user.die")+"//src//main//resources//unicodeTech//tesInformation//TestSuitC.xlsx");
 	}
 	
 	public static WebElement isElementPresent(String propKey) {
