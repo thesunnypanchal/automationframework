@@ -1,6 +1,7 @@
 package unicodeTech.TestSuiteA;
 
 import org.testng.SkipException;
+
 import org.testng.annotations.BeforeSuite;
 
 import unicodeTech.basePackage.BaseInit;
@@ -9,10 +10,9 @@ import unicodeTech.utility.MyMethods;
 public class ChildTestSuiteA extends BaseInit{
 
 	@BeforeSuite
-	public void checkTestsuit() throws Exception {
-	
+	public void checkTestsuite() throws Exception {
 		startUP();
-		boolean output = MyMethods.checkTestSuiteExecution(suite, "TestSuit", "TestSuitA");
+		boolean output = MyMethods.checkTestSuiteExecution(suite, "TestSuite", "TestSuiteA");
 		
 		if(!output) {
 			

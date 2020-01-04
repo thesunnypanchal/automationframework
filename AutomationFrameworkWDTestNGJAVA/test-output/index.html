@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  2 skipped,  </span>
+                    <span class="method-stats">4 methods,  1 skipped,  3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -105,12 +105,31 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Module1" title="unicodeTech.TestSuiteA.ExtractManufacturer" hash-for-method="testExtractManufacturer">testExtractManufacturer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                    </div> <!-- method-list-content skipped suite-Module1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Module1" class="hide-methods passed suite-Module1"> (hide)</a> <!-- hide-methods passed suite-Module1 -->
+                      <a href="#" panel-name="suite-Module1" class="show-methods passed suite-Module1"> (show)</a> <!-- show-methods passed suite-Module1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Module1">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Module1" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser">testValidateUser</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Module1" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo@unicodetechnologies.in, unicode)">testValidateUser(demo@unicodetechnologies.in, unicode)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Module1 -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Module1" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo2@unicodetechnologies.in, unicode2)">testValidateUser(demo2@unicodetechnologies.in, unicode2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Module1" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo1@unicodetechnologies.in, unicode1)">testValidateUser(demo1@unicodetechnologies.in, unicode1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Module1 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -125,28 +144,6 @@
           <div class="suite-Module1-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">unicodeTech.TestSuiteA.ValidateUser</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testValidateUser">
-                  </a> <!-- testValidateUser -->
-                  <span class="method-name">testValidateUser</span>
-                  <div class="stack-trace">java.lang.RuntimeException: java.lang.NullPointerException
-Caused by: java.lang.NullPointerException
-	at unicodeTech.utility.MyMethods.getTestData(MyMethods.java:67)
-	at unicodeTech.TestSuiteA.ValidateUser.getTestDataFromXLS(ValidateUser.java:51)
-	... 22 more
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Module1-class-skipped -->
-          <div class="suite-Module1-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
               <span class="class-name">unicodeTech.TestSuiteA.ExtractManufacturer</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -155,22 +152,46 @@ Caused by: java.lang.NullPointerException
                   <a name="testExtractManufacturer">
                   </a> <!-- testExtractManufacturer -->
                   <span class="method-name">testExtractManufacturer</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at unicodeTech.basePackage.BaseInit.startUP(BaseInit.java:60)
-	at unicodeTech.TestSuiteA.ChildTestSuiteA.checkTestsuit(ChildTestSuiteA.java:14)
-... Removed 19 stack frames
+                  <div class="stack-trace">org.testng.SkipException: Execution mode of the test case ExtractManufacturer is set to NO
+	at unicodeTech.TestSuiteA.ExtractManufacturer.checkTestCase(ExtractManufacturer.java:20)
+... Removed 23 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Module1-class-skipped -->
+          <div class="suite-Module1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">unicodeTech.TestSuiteA.ValidateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateUser(demo@unicodetechnologies.in, unicode)">
+                  </a> <!-- testValidateUser(demo@unicodetechnologies.in, unicode) -->
+                  <span class="method-name">testValidateUser</span>
+                  <span class="parameters">(demo@unicodetechnologies.in, unicode)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateUser(demo2@unicodetechnologies.in, unicode2)">
+                  </a> <!-- testValidateUser(demo2@unicodetechnologies.in, unicode2) -->
+                  <span class="method-name">testValidateUser</span>
+                  <span class="parameters">(demo2@unicodetechnologies.in, unicode2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateUser(demo1@unicodetechnologies.in, unicode1)">
+                  </a> <!-- testValidateUser(demo1@unicodetechnologies.in, unicode1) -->
+                  <span class="method-name">testValidateUser</span>
+                  <span class="parameters">(demo1@unicodetechnologies.in, unicode1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Module1-class-passed -->
         </div> <!-- panel Module1 -->
         <div panel-name="test-xml-Module1" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -231,20 +252,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testExtractManufacturer')
-data.setCell(0, 2, 'unicodeTech.TestSuiteA.ExtractManufacturer')
-data.setCell(0, 3, 1);
+data.setCell(0, 1, 'testValidateUser')
+data.setCell(0, 2, 'unicodeTech.TestSuiteA.ValidateUser')
+data.setCell(0, 3, 30925);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testValidateUser')
 data.setCell(1, 2, 'unicodeTech.TestSuiteA.ValidateUser')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 17577);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testValidateUser')
+data.setCell(2, 2, 'unicodeTech.TestSuiteA.ValidateUser')
+data.setCell(2, 3, 13810);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testExtractManufacturer')
+data.setCell(3, 2, 'unicodeTech.TestSuiteA.ExtractManufacturer')
+data.setCell(3, 3, 17);
 window.suiteTableData['Module1']= { tableData: data, tableDiv: 'times-div-Module1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Module1">
               </div> <!-- times-div-Module1 -->
             </div> <!-- times-div -->
@@ -272,11 +301,35 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">unicodeTech.TestSuiteA.ExtractManufacturer</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">checkTestsuit</span>
+                <span class="method-name">checkTestsuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteA.ValidateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">51764 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testValidateUser(demo@unicodetechnologies.in, unicode)</span>
+                <span class="method-start">52786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateUser(demo1@unicodetechnologies.in, unicode1)</span>
+                <span class="method-start">83716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateUser(demo2@unicodetechnologies.in, unicode2)</span>
+                <span class="method-start">97532 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">unicodeTech.TestSuiteA.ExtractManufacturer</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkTestCase</span>
+                <span class="method-start">115762 ms</span>
+              </div> <!-- configuration-test before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

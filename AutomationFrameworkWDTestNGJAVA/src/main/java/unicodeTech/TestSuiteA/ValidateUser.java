@@ -15,7 +15,7 @@ public class ValidateUser extends ChildTestSuiteA {
 	public void checkTestCase(){
 		
 		//call checktestexecution method
-		
+
 		boolean output = MyMethods.checkTestCaseExecution(tsa, "TestCase", this.getClass().getSimpleName());
 		if(!output) {
 			
@@ -35,7 +35,7 @@ public class ValidateUser extends ChildTestSuiteA {
 			if(logOFflink.isDisplayed()) {
 				
 				System.out.println("User session has started");
-				//MyMethods.getScreenShot("WelcomePageAfterLogin", driver);
+				MyMethods.getScreenShot("WelcomePageAfterLogin", driver);
 				MyMethods.signOut();
 			}
 			

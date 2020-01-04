@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Module1]">
-  <test name="Validate User(failed)">
-    <classes>
-      <class name="unicodeTech.TestSuiteA.ValidateUser">
-        <methods>
-          <include name="testValidateUser"/>
-          <include name="checkTestsuit"/>
-          <include name="checkTestCase"/>
-        </methods>
-      </class> <!-- unicodeTech.TestSuiteA.ValidateUser -->
-    </classes>
-  </test> <!-- Validate User(failed) -->
   <test name="ExtractManufacturer(failed)">
     <classes>
       <class name="unicodeTech.TestSuiteA.ExtractManufacturer">
         <methods>
           <include name="checkTestCase"/>
           <include name="testExtractManufacturer"/>
-          <include name="checkTestsuit"/>
+          <include name="checkTestsuite"/>
         </methods>
       </class> <!-- unicodeTech.TestSuiteA.ExtractManufacturer -->
     </classes>
