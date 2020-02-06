@@ -2,6 +2,7 @@ package unicodeTech.basePackage;
 
 /*
 1. Initialize and load properties file
+
 2. Launch browser
 3. Initialize WebDriver
 4. Maximize browser
@@ -15,12 +16,13 @@ package unicodeTech.basePackage;
 
 import java.io.FileInputStream;
 
+
 import java.io.FileNotFoundException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-//import org.apache.log4j.BasicConfigurator;
-//import org.apache.log4j.Logger;
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -40,7 +42,7 @@ public class BaseInit {
 	public static WebDriver driver;
 	public static Properties sitedata;
 	public static Properties storage;
-	//public static Logger logs;
+	public static Logger logs;
 	public static ExcelFileReader suite;
 	public static ExcelFileReader tsa;
 	public static ExcelFileReader tsb;
@@ -140,7 +142,7 @@ public class BaseInit {
 			}else {
 				
 				System.out.println("Element not found in the properties file");
-				return null;
+				//return null;
 			}
 			
 		}catch(Exception e) {

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Module1">
-              <span class="suite-name border-skipped">Module1</span>
+            <a href="#" class="navigator-link" panel-name="suite-dasda">
+              <span class="suite-name border-failed">dasda</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Module1">
-                    <span>C:\Users\dj\git\automationframework\AutomationFrameworkWDTestNGJAVA\src\main\resources\unicodeTech\testrunner\TestSuiteA.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-dasda">
+                    <span>C:\Users\dj\git\automationframework\AutomationFrameworkWDTestNGJAVA\src\main\resources\unicodeTech\testrunner\TestSuiteB.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Module1">
+                  <a href="#" class="navigator-link " panel-name="testlist-dasda">
                     <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Module1">
+                  <a href="#" class="navigator-link " panel-name="group-dasda">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Module1">
+                  <a href="#" class="navigator-link " panel-name="times-dasda">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Module1">
+                  <a href="#" class="navigator-link " panel-name="reporter-dasda">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Module1">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-dasda">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Module1">
+                  <a href="#" class="navigator-link " panel-name="chronological-dasda">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,45 +91,64 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,  1 skipped,  3 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,  1 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-dasda" class="hide-methods failed suite-dasda"> (hide)</a> <!-- hide-methods failed suite-dasda -->
+                      <a href="#" panel-name="suite-dasda" class="show-methods failed suite-dasda"> (show)</a> <!-- show-methods failed suite-dasda -->
+                    </span>
+                    <div class="method-list-content failed suite-dasda">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-dasda" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct(bluetooth)">testSearchProduct(bluetooth)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-dasda" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct(watches)">testSearchProduct(watches)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-dasda" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct()">testSearchProduct()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-dasda -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
                     <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Module1" class="hide-methods skipped suite-Module1"> (hide)</a> <!-- hide-methods skipped suite-Module1 -->
-                      <a href="#" panel-name="suite-Module1" class="show-methods skipped suite-Module1"> (show)</a> <!-- show-methods skipped suite-Module1 -->
+                      <a href="#" panel-name="suite-dasda" class="hide-methods skipped suite-dasda"> (hide)</a> <!-- hide-methods skipped suite-dasda -->
+                      <a href="#" panel-name="suite-dasda" class="show-methods skipped suite-dasda"> (show)</a> <!-- show-methods skipped suite-dasda -->
                     </span>
-                    <div class="method-list-content skipped suite-Module1">
+                    <div class="method-list-content skipped suite-dasda">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Module1" title="unicodeTech.TestSuiteA.ExtractManufacturer" hash-for-method="testExtractManufacturer">testExtractManufacturer</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-dasda" title="unicodeTech.TestSuiteB.ChangePassword" hash-for-method="testChangePassword">testChangePassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Module1 -->
+                    </div> <!-- method-list-content skipped suite-dasda -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Module1" class="hide-methods passed suite-Module1"> (hide)</a> <!-- hide-methods passed suite-Module1 -->
-                      <a href="#" panel-name="suite-Module1" class="show-methods passed suite-Module1"> (show)</a> <!-- show-methods passed suite-Module1 -->
+                      <a href="#" panel-name="suite-dasda" class="hide-methods passed suite-dasda"> (hide)</a> <!-- hide-methods passed suite-dasda -->
+                      <a href="#" panel-name="suite-dasda" class="show-methods passed suite-dasda"> (show)</a> <!-- show-methods passed suite-dasda -->
                     </span>
-                    <div class="method-list-content passed suite-Module1">
+                    <div class="method-list-content passed suite-dasda">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Module1" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo@unicodetechnologies.in, unicode)">testValidateUser(demo@unicodetechnologies.in, unicode)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-dasda" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct(samsung)">testSearchProduct(samsung)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Module1" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo2@unicodetechnologies.in, unicode2)">testValidateUser(demo2@unicodetechnologies.in, unicode2)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-dasda" title="unicodeTech.TestSuiteB.SearchProduct" hash-for-method="testSearchProduct(sony)">testSearchProduct(sony)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Module1" title="unicodeTech.TestSuiteA.ValidateUser" hash-for-method="testValidateUser(demo1@unicodetechnologies.in, unicode1)">testValidateUser(demo1@unicodetechnologies.in, unicode1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Module1 -->
+                    </div> <!-- method-list-content passed suite-dasda -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -140,196 +159,296 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Module1" class="panel Module1">
-          <div class="suite-Module1-class-skipped">
+        <div panel-name="suite-dasda" class="panel dasda">
+          <div class="suite-dasda-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">unicodeTech.TestSuiteA.ExtractManufacturer</span>
+              <img src="failed.png"/>
+              <span class="class-name">unicodeTech.TestSuiteB.SearchProduct</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testExtractManufacturer">
-                  </a> <!-- testExtractManufacturer -->
-                  <span class="method-name">testExtractManufacturer</span>
-                  <div class="stack-trace">org.testng.SkipException: Execution mode of the test case ExtractManufacturer is set to NO
-	at unicodeTech.TestSuiteA.ExtractManufacturer.checkTestCase(ExtractManufacturer.java:20)
+                  <a name="testSearchProduct(bluetooth)">
+                  </a> <!-- testSearchProduct(bluetooth) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(bluetooth)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2637JTI&apos;, ip: &apos;192.168.43.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\dj\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 14aa779217da245742bf8f493c08a5a0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at unicodeTech.TestSuiteB.SearchProduct.testSearchProduct(SearchProduct.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct(watches)">
+                  </a> <!-- testSearchProduct(watches) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(watches)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2637JTI&apos;, ip: &apos;192.168.43.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\dj\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 14aa779217da245742bf8f493c08a5a0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at unicodeTech.TestSuiteB.SearchProduct.testSearchProduct(SearchProduct.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchProduct()">
+                  </a> <!-- testSearchProduct() -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">()</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2637JTI&apos;, ip: &apos;192.168.43.200&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\dj\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 14aa779217da245742bf8f493c08a5a0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at unicodeTech.TestSuiteB.SearchProduct.testSearchProduct(SearchProduct.java:25)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-dasda-class-failed -->
+          <div class="suite-dasda-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">unicodeTech.TestSuiteB.ChangePassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChangePassword">
+                  </a> <!-- testChangePassword -->
+                  <span class="method-name">testChangePassword</span>
+                  <div class="stack-trace">org.testng.SkipException: Execution mode of the test case ChangePassword is set to NO
+	at unicodeTech.TestSuiteB.ChangePassword.checkTestCase(ChangePassword.java:16)
 ... Removed 23 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Module1-class-skipped -->
-          <div class="suite-Module1-class-passed">
+          </div> <!-- suite-dasda-class-skipped -->
+          <div class="suite-dasda-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">unicodeTech.TestSuiteA.ValidateUser</span>
+              <span class="class-name">unicodeTech.TestSuiteB.SearchProduct</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testValidateUser(demo@unicodetechnologies.in, unicode)">
-                  </a> <!-- testValidateUser(demo@unicodetechnologies.in, unicode) -->
-                  <span class="method-name">testValidateUser</span>
-                  <span class="parameters">(demo@unicodetechnologies.in, unicode)</span>
+                  <a name="testSearchProduct(samsung)">
+                  </a> <!-- testSearchProduct(samsung) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(samsung)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testValidateUser(demo2@unicodetechnologies.in, unicode2)">
-                  </a> <!-- testValidateUser(demo2@unicodetechnologies.in, unicode2) -->
-                  <span class="method-name">testValidateUser</span>
-                  <span class="parameters">(demo2@unicodetechnologies.in, unicode2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testValidateUser(demo1@unicodetechnologies.in, unicode1)">
-                  </a> <!-- testValidateUser(demo1@unicodetechnologies.in, unicode1) -->
-                  <span class="method-name">testValidateUser</span>
-                  <span class="parameters">(demo1@unicodetechnologies.in, unicode1)</span>
+                  <a name="testSearchProduct(sony)">
+                  </a> <!-- testSearchProduct(sony) -->
+                  <span class="method-name">testSearchProduct</span>
+                  <span class="parameters">(sony)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Module1-class-passed -->
-        </div> <!-- panel Module1 -->
-        <div panel-name="test-xml-Module1" class="panel">
+          </div> <!-- suite-dasda-class-passed -->
+        </div> <!-- panel dasda -->
+        <div panel-name="test-xml-dasda" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\dj\git\automationframework\AutomationFrameworkWDTestNGJAVA\src\main\resources\unicodeTech\testrunner\TestSuiteA.xml</span>
+            <span class="header-content">C:\Users\dj\git\automationframework\AutomationFrameworkWDTestNGJAVA\src\main\resources\unicodeTech\testrunner\TestSuiteB.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Module1&quot;&gt;
-  &lt;test name=&quot;Validate User&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;dasda&quot;&gt;
+  &lt;test name=&quot;ChangePassword&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;unicodeTech.TestSuiteA.ValidateUser&quot;/&gt;
+      &lt;class name=&quot;unicodeTech.TestSuiteB.ChangePassword&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Validate User --&gt;
-  &lt;test name=&quot;ExtractManufacturer&quot;&gt;
+  &lt;/test&gt; &lt;!-- ChangePassword --&gt;
+  &lt;test name=&quot;SearchProduct&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;unicodeTech.TestSuiteA.ExtractManufacturer&quot;/&gt;
+      &lt;class name=&quot;unicodeTech.TestSuiteB.SearchProduct&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ExtractManufacturer --&gt;
-&lt;/suite&gt; &lt;!-- Module1 --&gt;
+  &lt;/test&gt; &lt;!-- SearchProduct --&gt;
+&lt;/suite&gt; &lt;!-- dasda --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Module1" class="panel">
+        <div panel-name="testlist-dasda" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Module1</span>
+            <span class="header-content">Tests for dasda</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Validate User (1 class)</span>
+                <span class="test-name">ChangePassword (1 class)</span>
               </li>
               <li>
-                <span class="test-name">ExtractManufacturer (1 class)</span>
+                <span class="test-name">SearchProduct (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Module1" class="panel">
+        <div panel-name="group-dasda" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Module1</span>
+            <span class="header-content">Groups for dasda</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Module1" class="panel">
+        <div panel-name="times-dasda" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Module1</span>
+            <span class="header-content">Times for dasda</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Module1');
-function tableData_Module1() {
+suiteTableInitFunctions.push('tableData_dasda');
+function tableData_dasda() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testValidateUser')
-data.setCell(0, 2, 'unicodeTech.TestSuiteA.ValidateUser')
-data.setCell(0, 3, 30925);
+data.setCell(0, 1, 'testSearchProduct')
+data.setCell(0, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(0, 3, 12957);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testValidateUser')
-data.setCell(1, 2, 'unicodeTech.TestSuiteA.ValidateUser')
-data.setCell(1, 3, 17577);
+data.setCell(1, 1, 'testSearchProduct')
+data.setCell(1, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(1, 3, 2594);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testValidateUser')
-data.setCell(2, 2, 'unicodeTech.TestSuiteA.ValidateUser')
-data.setCell(2, 3, 13810);
+data.setCell(2, 1, 'testSearchProduct')
+data.setCell(2, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(2, 3, 384);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testExtractManufacturer')
-data.setCell(3, 2, 'unicodeTech.TestSuiteA.ExtractManufacturer')
-data.setCell(3, 3, 17);
-window.suiteTableData['Module1']= { tableData: data, tableDiv: 'times-div-Module1'}
+data.setCell(3, 1, 'testSearchProduct')
+data.setCell(3, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(3, 3, 9);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSearchProduct')
+data.setCell(4, 2, 'unicodeTech.TestSuiteB.SearchProduct')
+data.setCell(4, 3, 6);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testChangePassword')
+data.setCell(5, 2, 'unicodeTech.TestSuiteB.ChangePassword')
+data.setCell(5, 3, 0);
+window.suiteTableData['dasda']= { tableData: data, tableDiv: 'times-div-dasda'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-Module1">
-              </div> <!-- times-div-Module1 -->
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-dasda">
+              </div> <!-- times-div-dasda -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Module1" class="panel">
+        <div panel-name="reporter-dasda" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Module1</span>
+            <span class="header-content">Reporter output for dasda</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Module1" class="panel">
+        <div panel-name="ignored-methods-dasda" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Module1" class="panel">
+        <div panel-name="chronological-dasda" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">unicodeTech.TestSuiteA.ExtractManufacturer</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.SearchProduct</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">checkTestsuite</span>
+                <span class="method-name">checkTestsuit</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">unicodeTech.TestSuiteA.ValidateUser</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.ChangePassword</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">checkTestCase</span>
-                <span class="method-start">51764 ms</span>
+                <span class="method-start">10721 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">testValidateUser(demo@unicodetechnologies.in, unicode)</span>
-                <span class="method-start">52786 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testValidateUser(demo1@unicodetechnologies.in, unicode1)</span>
-                <span class="method-start">83716 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testValidateUser(demo2@unicodetechnologies.in, unicode2)</span>
-                <span class="method-start">97532 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">unicodeTech.TestSuiteA.ExtractManufacturer</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">unicodeTech.TestSuiteB.SearchProduct</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">checkTestCase</span>
-                <span class="method-start">115762 ms</span>
+                <span class="method-start">10807 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(samsung)</span>
+                <span class="method-start">10817 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchProduct(sony)</span>
+                <span class="method-start">23776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchProduct()</span>
+                <span class="method-start">26372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchProduct(watches)</span>
+                <span class="method-start">26759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSearchProduct(bluetooth)</span>
+                <span class="method-start">26771 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

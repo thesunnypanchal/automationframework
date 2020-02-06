@@ -12,7 +12,7 @@ public class ChildTestSuiteB extends BaseInit {
 	public void checkTestsuit() throws Exception {
 		
 		startUP();
-		boolean output = MyMethods.checkTestSuiteExecution(suite, "TestSuit", "TestSuitB");
+		boolean output = MyMethods.checkTestSuiteExecution(suite, "TestSuite", "TestSuiteB");
 				
 				if(!output) {
 					throw new SkipException("Execution mode of the test suite TestSuiteB is set to NO");

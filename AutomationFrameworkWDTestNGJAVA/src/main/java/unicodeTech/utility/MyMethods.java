@@ -3,6 +3,7 @@ package unicodeTech.utility;
 
 import java.io.File;
 
+
 import java.io.IOException;
 
 import org.openqa.selenium.OutputType;
@@ -29,7 +30,7 @@ public class MyMethods extends BaseInit {
 	public static void signOut() {
 		
 		isElementPresent("lnk_logoff_linkText").click();
-		isElementPresent("ink_logoff_continue_linktext").click();
+		isElementPresent("btn_continue_id").click();
 	}
 	
 	public static boolean checkTestSuiteExecution(ExcelFileReader data, String sheetName, String testsuiteID) {
@@ -50,7 +51,7 @@ public class MyMethods extends BaseInit {
 	}
 	
 	public static boolean checkTestCaseExecution(ExcelFileReader data, String sheetName, String testcaseID) {
-		
+	
 		int rows = data.totalRow(sheetName);
 		for(int row = 1; row < rows; row++) {
 			String tcID = data.getData(sheetName, row, 0);

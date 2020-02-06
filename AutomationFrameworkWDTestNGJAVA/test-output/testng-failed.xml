@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Module1]">
-  <test name="ExtractManufacturer(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [dasda]">
+  <test name="ChangePassword(failed)">
     <classes>
-      <class name="unicodeTech.TestSuiteA.ExtractManufacturer">
+      <class name="unicodeTech.TestSuiteB.ChangePassword">
         <methods>
           <include name="checkTestCase"/>
-          <include name="testExtractManufacturer"/>
-          <include name="checkTestsuite"/>
+          <include name="checkTestsuit"/>
+          <include name="testChangePassword"/>
         </methods>
-      </class> <!-- unicodeTech.TestSuiteA.ExtractManufacturer -->
+      </class> <!-- unicodeTech.TestSuiteB.ChangePassword -->
     </classes>
-  </test> <!-- ExtractManufacturer(failed) -->
-</suite> <!-- Failed suite [Module1] -->
+  </test> <!-- ChangePassword(failed) -->
+  <test name="SearchProduct(failed)">
+    <classes>
+      <class name="unicodeTech.TestSuiteB.SearchProduct">
+        <methods>
+          <include name="testSearchProduct" invocation-numbers="2 3 4"/>
+          <include name="checkTestsuit"/>
+          <include name="checkTestCase"/>
+        </methods>
+      </class> <!-- unicodeTech.TestSuiteB.SearchProduct -->
+    </classes>
+  </test> <!-- SearchProduct(failed) -->
+</suite> <!-- Failed suite [dasda] -->

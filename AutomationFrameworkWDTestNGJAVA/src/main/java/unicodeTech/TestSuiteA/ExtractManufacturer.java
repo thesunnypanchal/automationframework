@@ -21,12 +21,15 @@ public class ExtractManufacturer extends ChildTestSuiteA {
 		}
 	}
 	@Test
-	public void testExtractManufacturer() throws InterruptedException {
+	
+	public void testExtractManufacturer(String username, String password) throws InterruptedException {
 		
 		
 	driver.get(sitedata.getProperty("url"));
+	MyMethods.signIN(username, password);
 	WebElement menufacturers = isElementPresent("dd_manufacturers_name");
 	List<WebElement> manuValues = menufacturers.findElements(By.tagName("option"));
+	
 	
 	for(int count = 1;count<manuValues.size();count++) {
 		
