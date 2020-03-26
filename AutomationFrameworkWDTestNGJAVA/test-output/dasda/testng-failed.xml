@@ -16,7 +16,7 @@
     <classes>
       <class name="unicodeTech.TestSuiteB.SearchProduct">
         <methods>
-          <include name="testSearchProduct" invocation-numbers="2 3 4"/>
+          <include name="testSearchProduct" invocation-numbers="1 2 3 4"/>
           <include name="checkTestsuit"/>
           <include name="checkTestCase"/>
         </methods>

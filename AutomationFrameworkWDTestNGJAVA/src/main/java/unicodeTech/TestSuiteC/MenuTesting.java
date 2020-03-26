@@ -29,7 +29,7 @@ public class MenuTesting extends ChildTestSuiteC {
 		WebElement menus = isElementPresent("div_menu_xpath");
 		List<WebElement> allMenu = menus.findElements(By.tagName("a"));
 		
-			for(int count=0;count<allMenu.size();count++) {
+			for(int count=0; count<allMenu.size(); count++) {
 				System.out.println(allMenu.get(count).getText());
 			}
 	}
